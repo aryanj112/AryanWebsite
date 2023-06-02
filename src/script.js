@@ -4,10 +4,10 @@
 
 //Example: Add a click event listener to the project elements
 
-const projects = document.querySelectorAll('.project');
-projects.forEach(project => {
-  project.addEventListener('click', () => {
-    console.log('Project clicked:', project.textContent);
+const projects = document.querySelectorAll(".project");
+projects.forEach((project) => {
+  project.addEventListener("click", () => {
+    console.log("Project clicked:", project.textContent);
     // Add your custom logic here
   });
 });
