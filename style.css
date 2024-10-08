@@ -2,9 +2,13 @@ body {
     background-color: bisque;
 }
 
+#india-gate-photo{
+    display: block;
+    width: 24rem;
+}
 
 
-#ContactInfo {
-    padding-top: 1rem;
-
+#contact-info {
+   animation: forwards;
+   animation-duration: 10s;
 }
