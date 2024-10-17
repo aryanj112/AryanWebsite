@@ -2,14 +2,20 @@ body {
     background-color: bisque;
 }
 
-.intro-photos{
-    display: flex;
-    
-    width: 24rem;
+#welcome{
+    color: aquamarine;
 }
 
+#intro-section{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 3rem;
+}
 
-#contact-info {
-   animation: forwards;
-   animation-duration: 10s;
+.intro-photos{
+    width: auto;
+    height: 29rem;
+    object-fit: cover;
 }
