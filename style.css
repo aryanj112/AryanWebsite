@@ -3,19 +3,19 @@ body {
 }
 
 #welcome{
-    color: aquamarine;
+    text-align: center;
 }
 
-#intro-section{
+#intro-section #intro-photos{
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
-    align-items: flex-end;
-    padding: 3rem;
+}
+
+#photo-disc{
+    display: flex;
+    justify-content: space-around;
 }
 
 .intro-photos{
-    width: auto;
     height: 29rem;
-    object-fit: cover;
 }
