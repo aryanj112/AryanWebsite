@@ -2,8 +2,9 @@ body {
     background-color: bisque;
 }
 
-#india-gate-photo{
-    display: block;
+.intro-photos{
+    display: flex;
+    
     width: 24rem;
 }
 
