@@ -1,28 +1,33 @@
 body {
     background-color: bisque;
+    margin: 0; /* This removes any default browser margin */
+    padding: 0; /* This removes any padding from the body */
 }
 
-#welcome{
+#welcome {
     text-align: center;
+    margin: 1rem 0; /* Adds some margin above and below the welcome message */
 }
 
-.intro{
+.intro {
     display: flex;
     justify-content: space-around;
+    align-items: center; /* Centers images and text vertically within each flex item */
+    margin: 2rem 2rem; /* Adds some space around the entire flex container */
 } 
 
-.intro .center-item{
+.intro .center-item {
+    text-align: center;
     width: 17rem;
-    justify-content: space-around;
-    margin-left: 2rem;
-    margin-right: 2rem;
-} 
-
-img {
-    height: 27rem;
-    width: auto;
+    margin: 0 2rem; /* Consistent margin on both sides */
 }
 
+img {
+    height: 25rem; /* Set a consistent height for all images */
+    width: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the image within its parent div */
+}
 
 .photo-disc{
     display: flex;
