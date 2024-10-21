@@ -6,16 +6,25 @@ body {
     text-align: center;
 }
 
-#intro-section #intro-photos{
+.intro{
     display: flex;
     justify-content: space-around;
+} 
+
+.intro .center-item{
+    width: 17rem;
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+} 
+
+img {
+    height: 27rem;
+    width: auto;
 }
 
-#photo-disc{
+
+.photo-disc{
     display: flex;
     justify-content: space-around;
-}
-
-.intro-photos{
-    height: 29rem;
 }
